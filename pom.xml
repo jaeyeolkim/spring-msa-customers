@@ -87,6 +87,12 @@
             <artifactId>org.egovframe.rte.ptl.mvc</artifactId>
             <version>${org.egovframe.rte.version}</version>
         </dependency>
+        <!-- spring cloud -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <version>${spring.cloud.version}</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>

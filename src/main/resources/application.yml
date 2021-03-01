@@ -4,3 +4,9 @@ server:
 spring:
   application:
     name: customer
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka
